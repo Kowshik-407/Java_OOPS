@@ -1,0 +1,114 @@
+DAY_2
+
+Data Types in Java  
+
+    -> Primitive Data Types
+    -> Reference Variables
+
+        // Identifiers in JAVA
+
+        /** 
+         * Variables --> Which can vary or hold any value
+         * Datatype  --> To define the type of variables
+         * Literals  --> These are the constant Value which cannot be changed
+         * 
+         * Rules for Variables :-
+         * --> It cannot start with number, but it contain number
+         * --> Should contains character and in special char it allows '_' or '$'  
+         * 
+         * Datatypes :-
+         * -->  'byte'       size of byte  is 1 byte
+         * -->  'short'      size of short is 2 byte
+         * -->  'int'        size of int is 4 byte
+         * -->  'long'       size of long is 8 byte
+         * -->  'float'      size of float is 4 byte
+         * -->  'double'     size of double is 8 byte
+         *
+         * Datatype Boolean can hold true or false
+         *
+         * Datatypes 'byte','short','int','long' will hold numbers
+         * Datatypes 'float','double' will hold decimals
+         * 
+         * Valid Variable Names
+         * a1
+         * $a
+         * _______________________a
+         * a222222222222222222222222
+         * 
+         * Invalid Variable Names
+         * @a
+         * +a
+         * 2a
+         * #aaaa
+         */
+
+Literals in Java
+
+    -> Integer Literals
+    -> Decimal Literals
+    -> Octal Literals
+    -> Hexadecimal Literals
+    -> Floating point Literals
+    -> Boolean Literals
+    -> Character Literals
+    -> String Literals
+
+Data Type Conversions
+
+    -> Implicit Conversions (Non lossy)
+    -> Explicit Conversions (can be lossy)
+
+Operators In Java
+
+    -> Assignment Operators
+    -> Arithmetic Operators
+    -> Relational Operators
+    -> Conditional Operators
+    -> Logical Operators
+    -> instanceof Comparison
+
+Assignment Operators
+
+    a = a + b can be written as a += b
+    a = a - b can be written as a -= b
+    a = a * b can be written as a *= b
+    a = a / b can be written as a /= b
+    a = a % b can be written as a %= b
+
+Arithmetic Operators
+    Addition                +
+    Subtraction             -
+    Multiplication          *
+    Division                /
+    Remainder Operator      %
+    String Concatenation    '+'
+
+Increment And Decrement Operators
+    Prefix
+    Postfix
+    Multiplication
+    Division
+    Remainder Operator 
+    String Concatenation
+
+Relational Operators
+    > 
+    >=
+    <
+    <= 
+    ==
+    !=
+    
+
+Conditional Operators
+    Terenary Operator
+    Boolean Expression ? Value if true : value if false
+
+Difference Betwewen Static and Non-static
+
+static         --> class
+    -> directly access 
+non-static     --> object
+    -> access through objects
+
+static cannot referred to non-static without creating objects

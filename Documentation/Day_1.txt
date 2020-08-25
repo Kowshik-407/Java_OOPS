@@ -1,0 +1,33 @@
+DAY_1
+
+Why JAVA?
+	Free
+	Robust
+	Object Oriented
+	Platform Independence
+	Secure
+	
+ JDK vs JRE
+ 
+ JDK --> Java Development Kit
+		- Compiler, libraries, Runtime, setup, JVM
+		- Developers
+ JRE --> Java Runtime Environment
+		- Runtime, setup, JVM
+		- End User
+
+ JVM --> Java Virtual Machine
+ 
+ Code(source.java) -> Compile Code -> Byte Code (Optimized code for machine may be in assembly language) -> JVM
+
+
+    /**  
+     * Execution Starts from Main Method
+     * param args
+     */
+
+    //  public        --> access specifier ::> If you dont mark public JVM Will not execute
+    //  static        --> We can access this without creating the object
+    // void           --> nothing
+    // main           --> name of the main method
+    // String [] args --> array in java of string which can be passed from command
