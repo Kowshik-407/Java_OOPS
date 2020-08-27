@@ -47,5 +47,12 @@ abstract class Bird {
         Penguin penguin = new Penguin();
         penguin.SwimBehavior();
         
+        EatBehavior eatobj = new EatBehavior();
+        eatobj.eat();
+
+        Bird birdObj1 = new Ostrich();
+        birdObj1.eat();
+        birdObj1.eat("insects");
+
     }
 }
