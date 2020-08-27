@@ -50,9 +50,9 @@ abstract class Bird {
         EatBehavior eatobj = new EatBehavior();
         eatobj.eat();
 
-        Bird birdObj1 = new Ostrich();
-        birdObj1.eat();
-        birdObj1.eat("insects");
+        // Bird birdObj1 = new Ostrich();
+        // birdObj1.eat();
+        // birdObj1.eat("insects");
 
     }
 }
